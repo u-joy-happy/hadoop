@@ -19,10 +19,10 @@ void main()
                      1,  0,  1,  1,
                      1,  1,  0,  0 } ;
         
-        int n = 0;
         int result_decimal = 0;
         int hex_value = 0x4ABC;
 
+        int n = 0;
         for( ; n < MAX_INDEX; n++)
                 result_decimal += ( 1 << A[n] ) * B[n];
                 // left shift 
