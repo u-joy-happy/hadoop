@@ -1,4 +1,4 @@
-# Decimal to Hexadecimal
+# Hexadecimal to Decimal in C
 
 ```
 #include <stdio.h>
