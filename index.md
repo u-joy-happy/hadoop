@@ -42,3 +42,13 @@
     > ulimit [-Sn] [-Hn]
     > sysctl [-p] [-a]
     > hdparm [-t] /dev/sda1
+
+# VIM Command
+    [:n/N]      : 파일 전환
+    [:diffthis] : diff-theme로 설정
+    [:diffoff]  : diff-theme 종료
+    [:diffput]  : (커서기준) 현재 창의 내용을 다른 창으로 복사
+    [:diffget]  : (커서기준) 다른 창의 내용을 현재 창으로 복사
+    r+[key]     : insert 상태로 전환하지 않고 내용 수정
+    [:set ts=2] : tab size 수정
+    [:set nu]   : 줄번호 표시
